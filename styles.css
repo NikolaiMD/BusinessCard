@@ -1,0 +1,67 @@
+body{
+      background-color: #bce;
+    }
+    h1,h2,p,ul{
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    #business-card{
+      background-color: #111;
+      width: 450px;
+      height: 240px;
+      border-top: 8px solid white;
+      border-right: 10px solid white;
+      border-bottom: 10px solid white;
+      border-left: 5px solid white;
+      font-family: arial;
+    }
+    #business-card .name{
+      float: left;
+      padding-top: 70px;
+      padding-left: 35px;
+      text-align: right;
+    }
+    #business-card .info{
+      float: right;
+      margin-top: 60px;
+      height: 110px;
+      padding-right: 45px;
+      border-left: 2px solid white;
+    }
+    #business-card .name h1{
+      color: white;
+      font-weight: lighter;
+    }
+    #business-card .name h2{
+      color: #B19661;
+      text-transform: uppercase;
+    }
+    #business-card .name small{
+      color: grey;
+    }
+    #business-card .info p{
+      color: white;
+      padding-left: 10px;
+    }
+    #business-card .info li{
+      color: grey;
+      margin: 5px 5px 5px 10px;
+      font-size: 13px;
+    }
+    #business-card .info li:first-child:before{
+      content: "\260F";
+      padding-right: 5px;
+    }
+    #business-card .info li:nth-child(2):before{
+      content: "\1F4E7";
+      margin-left: -1px;
+      padding-right: 4px;
+    }
+    #business-card .info li:last-child:before{
+      content: "\1F5D4";
+      color: white;
+      margin-left: -1px;
+      padding-right: 5px;
+
+    }
